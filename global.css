@@ -7,31 +7,40 @@ html {
 }
 
 #container{
-  width: 1400px;
+  background: white;
+  width: auto;
   height: 10000px;
 }
 
-#header1 #header_img{
-  float: left;
-  width: 30px;
-  padding: 10px;
+#main_header{
+  opacity: 0.8;
+  width: 100%;
+  position: fixed;
 }
 
-#header1{
+#header_img{
+  float: left;
+  width: auto;
+  padding-top: 5px;
+}
+
+#title_header{
+  background: white;
   line-height: .05;
-  width: 800px;
+  width: 50%;
   height: 75px;
   float: left;
   padding-left: 10px;  
   display: inline-block;
 }
 
-#header1 h1, p{
+#title_header h1, p{
   padding-left: 60px;
 }
 
 #navbar{
-  width: 600px;
+  background: white;
+  width: 50%;
   padding: 10px;
   padding-left: 300px;
   float: right;
@@ -43,14 +52,15 @@ html {
 }
 
 #summary{
-  width: 1400px;
+  padding-top: 50px;
+  background: #D4D4D4;
+  width: auto;
   height: 800px;
 }
 
 #content{
-  width: 800px;
+  width: 57%;
   height: 800px;
-  background: #D4D4D4;
   float: left;
 }
 
@@ -69,17 +79,14 @@ html {
 #image{
   width: 600px;
   height: 800px;
-  background: orange;
+  background: #D4D4D4;
   display: inline-block;
   float: right;
 }
 
-#img_location{
-  width: 400px;
-  height: 400px;
-  background:black;
-  color: white;
-  float: left;
+#image img{
+  border-radius: 1000%;
+  padding: 40px;
 }
 
 #style_desc{
@@ -107,27 +114,19 @@ html {
 #still{
   background: black;
   color: white;
-  width: 600px;
+  width: 50%;
   float: left;
   height: 300px;
   padding-left: 225px;
 }
 
-#middle_image{
-  background: green;
-  width: 200px;
-  height: 300px;
-  display: inline-block;
-  position: relative;
-}
 
 #motion{
   background: blue;
-  width: 600px;
+  width: 50%;
   float: left;
   height: 300px;
   padding-left: 225px;
-  position: absolute;
   display: inline-block;
 }
 
