@@ -7,24 +7,35 @@ html {
 }
 
 #container{
-  width: 1000px;
-  background: red;
-  height: 1000px;
+  width: 1400px;
+  height: 10000px;
+}
+
+#header1 #header_img{
+  float: left;
+  width: 30px;
+  padding: 10px;
 }
 
 #header1{
-  background: blue;
-  width: 500px;
+  line-height: .05;
+  width: 800px;
+  height: 75px;
   float: left;
-  padding: 10px;  
+  padding-left: 10px;  
+  display: inline-block;
+}
+
+#header1 h1, p{
+  padding-left: 60px;
 }
 
 #navbar{
-  background: green;
-  width: 500px;
+  width: 600px;
   padding: 10px;
-  padding-left: 40px;
+  padding-left: 300px;
   float: right;
+  height: 75px;
 }
 
 #navbar li{
@@ -32,21 +43,116 @@ html {
 }
 
 #summary{
-  background: yellow;
-  width: 1000px;
-  height: 400px;
+  width: 1400px;
+  height: 800px;
 }
 
 #content{
-  width: 500px;
-  height: 400px;
+  width: 800px;
+  height: 800px;
+  background: #D4D4D4;
   float: left;
 }
 
+#content h1{
+  margin: 0 ;
+}
+
+#content h2{
+  padding-left: 60px;
+}
+
+#content p{
+  line-height: 3;
+}
+
 #image{
+  width: 600px;
+  height: 800px;
   background: orange;
   display: inline-block;
   float: right;
-  width: 500px;
-  height: 400px;
 }
+
+#img_location{
+  width: 400px;
+  height: 400px;
+  background:black;
+  color: white;
+  float: left;
+}
+
+#style_desc{
+  background: gray;
+  width: 1400px;
+  height: 1070px;
+}
+
+#title1{
+  width: 1400px;
+  height: 100px;
+  background: purple;
+  float: left;
+  padding-left: 575px;
+}
+
+#rural{
+  background: white;
+  width: 1400px;
+  height: 300px;
+  float: left;
+  padding-left: 650px;
+}
+
+#still{
+  background: black;
+  color: white;
+  width: 600px;
+  float: left;
+  height: 300px;
+  padding-left: 225px;
+}
+
+#middle_image{
+  background: green;
+  width: 200px;
+  height: 300px;
+  display: inline-block;
+  position: relative;
+}
+
+#motion{
+  background: blue;
+  width: 600px;
+  float: left;
+  height: 300px;
+  padding-left: 225px;
+  position: absolute;
+  display: inline-block;
+}
+
+#urban{
+  background: teal;
+  width: 1400px;
+  height: 300px;
+  float: left;
+  padding-left: 650px;
+}
+
+#process1{
+  background: orange;
+}
+
+#proc_header h1{
+  height: 25px;
+  margin: 0;
+  padding-left: 600px;
+}
+
+#proc_img h1{
+  margin: 0;
+  background: blue;
+  display: inline-block;
+  padding-left: 275px;
+}
+
