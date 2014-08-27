@@ -1,0 +1,52 @@
+/* Fix the box model. */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+#container{
+  width: 1000px;
+  background: red;
+  height: 1000px;
+}
+
+#header1{
+  background: blue;
+  width: 500px;
+  float: left;
+  padding: 10px;  
+}
+
+#navbar{
+  background: green;
+  width: 500px;
+  padding: 10px;
+  padding-left: 40px;
+  float: right;
+}
+
+#navbar li{
+  display: inline-block;
+}
+
+#summary{
+  background: yellow;
+  width: 1000px;
+  height: 400px;
+}
+
+#content{
+  width: 500px;
+  height: 400px;
+  float: left;
+}
+
+#image{
+  background: orange;
+  display: inline-block;
+  float: right;
+  width: 500px;
+  height: 400px;
+}
